@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="183478bc-8344-4316-ae5b-df104817bfd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mock-braintree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/mock_braintree.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mock_braintree.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mock_braintree/client_token_gateway.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mock_braintree/client_token_gateway.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mock_braintree/unsuccessful_result.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mock_braintree/unsuccessful_result.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mock_braintree/mock_customer/customer_gateway.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mock_braintree/mock_customer/customer_gateway.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mock_braintree/mock_customer/new_customer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mock_braintree/mock_customer/new_customer.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +29,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/reidtakken/websites/mock-braintree/lib/mock_braintree&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/reidtakken/websites/mock-braintree/lib/mock_braintree/payment&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/mock_braintree/payment" />
+      <recent name="$PROJECT_DIR$/lib/mock_braintree/customer" />
+      <recent name="$PROJECT_DIR$/lib/mock_braintree" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/mock_braintree/customer" />
       <recent name="$PROJECT_DIR$/lib/mock_braintree" />
     </key>
   </component>
@@ -54,7 +56,10 @@
       <updated>1664387281531</updated>
       <workItem from="1664387283473" duration="1564000" />
       <workItem from="1664389146908" duration="2069000" />
-      <workItem from="1664804080864" duration="689000" />
+      <workItem from="1664804080864" duration="1375000" />
+      <workItem from="1664915399965" duration="2175000" />
+      <workItem from="1670425749672" duration="4900000" />
+      <workItem from="1670430792120" duration="3702000" />
     </task>
     <servers />
   </component>
