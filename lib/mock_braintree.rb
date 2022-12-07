@@ -24,7 +24,6 @@ module MockBraintree
     def customer
       MockCustomer::CustomerGateway.new
     end
-
     def payment_method
       MockPayment::PaymentMethodGateway.new
     end
