@@ -7,5 +7,12 @@ module MockPayment
         MockPayment::SuccessfulResult.new(hash)
       end
     end
+    def delete(token)
+      if token == "FAIL"
+        MockPayment::UnsuccessfulResult.new
+      else
+        MockPayment::SuccessfulResult.new
+      end
+    end
   end
 end
