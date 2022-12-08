@@ -14,5 +14,12 @@ module MockPayment
         MockPayment::SuccessfulResult.new
       end
     end
+    def update(token, attributes)
+      if token == "FAIL"
+        MockPayment::UnsuccessfulResult.new
+      else
+        MockPayment::SuccessfulResult.new
+      end
+    end
   end
 end
