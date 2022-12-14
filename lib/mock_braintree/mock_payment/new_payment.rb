@@ -10,5 +10,9 @@ module MockPayment
       @expiration_date = Time.now.utc
       @token = SecureRandom.hex(3)
     end
+
+    def default?
+      true
+    end
   end
 end
